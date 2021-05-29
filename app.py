@@ -3,7 +3,7 @@ from tensorflow import keras
 import tensorflow as tf
 import numpy as np
 
-m = tf.keras.models.load_model(r'C:\Users\DMEO\Desktop\python\VS\model on web\model.h5')
+m = tf.keras.models.load_model('model.h5')
 
 app = Flask(__name__)
 
@@ -31,4 +31,4 @@ def info():
         return "data is showing with post method {} prediction is {}".format(input1,a)
 
 
-app.run(debug = True)
+#app.run(debug = True)
