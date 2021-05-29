@@ -1,0 +1,12 @@
+{
+    "json.schemas": [
+    {
+        "fileMatch": [
+            "/myfile"
+        ],
+        "url": "schemaURL",
+        
+        "python.pythonPath": "C:/Users/DMEO/Desktop/python/VS/deployment with heroku/Scripts/python.exe"
+    }
+    ]
+}
